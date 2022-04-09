@@ -1,0 +1,40 @@
+
+4src/main/java/com/jpa2/demo/dto/AuthorStatistic.javaÍ
+!com.jpa2.demo.dto.AuthorStatisticCLASS>
+4src/main/java/com/jpa2/demo/dto/AuthorStatistic.java ("
+packagecom.jpa2.demo.dto"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ð
+declarationStringº<mark class="annotation">@AllArgsConstructor</mark> <br><mark class="annotation">@Data</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>AuthorStatistic"
+accesspublic*AuthorStatistic2‡
+8com.jpa2.demo.dto.AuthorStatistic?authorName@10.19:10.29DECLARATION>
+4src/main/java/com/jpa2/demo/dto/AuthorStatistic.java
+ 
+(2…
+6com.jpa2.demo.dto.AuthorStatistic?bookSize@11.17:11.25DECLARATION>
+4src/main/java/com/jpa2/demo/dto/AuthorStatistic.java (¡
+8com.jpa2.demo.dto.AuthorStatistic?authorName@10.19:10.29VARIABLE>
+4src/main/java/com/jpa2/demo/dto/AuthorStatistic.java
+ 
+("
+isFinalfalse"
+typeString"m
+declarationStringX<mark class="modifier">private </mark>String <mark class="class-field">authorName</mark>"
+isStaticfalse"
+accessprivate*
+authorName2X
+java.lang.StringTYPE>
+4src/main/java/com/jpa2/demo/dto/AuthorStatistic.java
+ 
+(•
+6com.jpa2.demo.dto.AuthorStatistic?bookSize@11.17:11.25VARIABLE>
+4src/main/java/com/jpa2/demo/dto/AuthorStatistic.java ("
+isFinalfalse"
+typeLong"i
+declarationStringT<mark class="modifier">private </mark>Long <mark class="class-field">bookSize</mark>"
+isStaticfalse"
+accessprivate*bookSize2V
+java.lang.LongTYPE>
+4src/main/java/com/jpa2/demo/dto/AuthorStatistic.java (

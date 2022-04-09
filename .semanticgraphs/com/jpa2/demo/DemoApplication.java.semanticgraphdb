@@ -1,0 +1,35 @@
+
+0src/main/java/com/jpa2/demo/DemoApplication.javaå
+com.jpa2.demo.DemoApplicationCLASS:
+0src/main/java/com/jpa2/demo/DemoApplication.java ("
+packagecom.jpa2.demo"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"©
+declarationStringì<mark class="annotation">@SpringBootApplication</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>DemoApplication"
+accesspublic*DemoApplication2Å
+6com.jpa2.demo.DemoApplication.main(java.lang.String[])DECLARATION:
+0src/main/java/com/jpa2/demo/DemoApplication.java (È
+6com.jpa2.demo.DemoApplication.main(java.lang.String[])METHOD:
+0src/main/java/com/jpa2/demo/DemoApplication.java ("
+isFinalfalse"≤
+declarationStringú<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2
+;com.jpa2.demo.DemoApplication.main(java.lang.String[])!argsCALL:
+0src/main/java/com/jpa2/demo/DemoApplication.java	/ 	(32Ñ
+;com.jpa2.demo.DemoApplication.main(java.lang.String[])!args	PARAMETER:
+0src/main/java/com/jpa2/demo/DemoApplication.java" (&2O
+voidRETURN_TYPE:
+0src/main/java/com/jpa2/demo/DemoApplication.java (™
+;com.jpa2.demo.DemoApplication.main(java.lang.String[])!args	PARAMETER:
+0src/main/java/com/jpa2/demo/DemoApplication.java" (&"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2V
+java.lang.String[]TYPE:
+0src/main/java/com/jpa2/demo/DemoApplication.java (!

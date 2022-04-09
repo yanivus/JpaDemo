@@ -1,0 +1,124 @@
+
+,src/main/java/com/jpa2/demo/entity/Book.javaÅ
+
+com.jpa2.demo.entity.BookCLASS6
+,src/main/java/com/jpa2/demo/entity/Book.java ("
+packagecom.jpa2.demo.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ò
+declarationString€<mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@Entity</mark> <br><mark class="annotation">@Accessors(chain = true)</mark> <br><mark class="annotation">@ToString(onlyExplicitlyIncluded = true)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Book"
+accesspublic*Book2Å
+:com.jpa2.demo.entity.Book.equals(javax.persistence.Object)DECLARATION6
+,src/main/java/com/jpa2/demo/entity/Book.java* *(2k
+$com.jpa2.demo.entity.Book.hashCode()DECLARATION6
+,src/main/java/com/jpa2/demo/entity/Book.java4 4(2o
+(com.jpa2.demo.entity.Book?id@24.17:24.19DECLARATION6
+,src/main/java/com/jpa2/demo/entity/Book.java (2q
+*com.jpa2.demo.entity.Book?name@27.19:27.23DECLARATION6
+,src/main/java/com/jpa2/demo/entity/Book.java (2q
+*com.jpa2.demo.entity.Book?iban@30.19:30.23DECLARATION6
+,src/main/java/com/jpa2/demo/entity/Book.java (2s
+,com.jpa2.demo.entity.Book?author@35.19:35.25DECLARATION6
+,src/main/java/com/jpa2/demo/entity/Book.java# #(◊
+:com.jpa2.demo.entity.Book.equals(javax.persistence.Object)METHOD6
+,src/main/java/com/jpa2/demo/entity/Book.java* *("
+isFinalfalse"ª
+declarationString•<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">equals</mark>(Object o)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*equals2[
+java.lang.Object.getClass()CALL6
+,src/main/java/com/jpa2/demo/entity/Book.java, ,(!2|
+<com.jpa2.demo.entity.Book.equals(javax.persistence.Object)!oCALL6
+,src/main/java/com/jpa2/demo/entity/Book.java+ +(2|
+<com.jpa2.demo.entity.Book.equals(javax.persistence.Object)!oCALL6
+,src/main/java/com/jpa2/demo/entity/Book.java, ,(2|
+<com.jpa2.demo.entity.Book.equals(javax.persistence.Object)!oCALL6
+,src/main/java/com/jpa2/demo/entity/Book.java,' ,((2|
+<com.jpa2.demo.entity.Book.equals(javax.persistence.Object)!oCALL6
+,src/main/java/com/jpa2/demo/entity/Book.java. .(2j
+*com.jpa2.demo.entity.Book?iban@30.19:30.23CALL6
+,src/main/java/com/jpa2/demo/entity/Book.java0 0("2ã
+Kcom.jpa2.demo.entity.Book.equals(javax.persistence.Object)?book@46.13:46.17CALL6
+,src/main/java/com/jpa2/demo/entity/Book.java0$ 0((2Å
+<com.jpa2.demo.entity.Book.equals(javax.persistence.Object)!o	PARAMETER6
+,src/main/java/com/jpa2/demo/entity/Book.java*! *("2í
+Kcom.jpa2.demo.entity.Book.equals(javax.persistence.Object)?book@46.13:46.17DECLARATION6
+,src/main/java/com/jpa2/demo/entity/Book.java. .(2N
+booleanRETURN_TYPE6
+,src/main/java/com/jpa2/demo/entity/Book.java* *(˘
+Kcom.jpa2.demo.entity.Book.equals(javax.persistence.Object)?book@46.13:46.17VARIABLE6
+,src/main/java/com/jpa2/demo/entity/Book.java. .("
+typeBook"
+isFinalfalse"i
+declarationStringT<mark class="modifier"> </mark>Book <mark class="class-field">book</mark> = (Book) o*book2Y
+com.jpa2.demo.entity.BookTYPE6
+,src/main/java/com/jpa2/demo/entity/Book.java. .(2|
+<com.jpa2.demo.entity.Book.equals(javax.persistence.Object)!oCALL6
+,src/main/java/com/jpa2/demo/entity/Book.java. .(ü
+<com.jpa2.demo.entity.Book.equals(javax.persistence.Object)!o	PARAMETER6
+,src/main/java/com/jpa2/demo/entity/Book.java*! *(""
+typeObject"
+isFinalfalse"
+declarationStringObject o*o2X
+javax.persistence.ObjectTYPE6
+,src/main/java/com/jpa2/demo/entity/Book.java* *( °
+$com.jpa2.demo.entity.Book.hashCode()METHOD6
+,src/main/java/com/jpa2/demo/entity/Book.java4 4("
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">hashCode</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*hashCode2j
+*com.jpa2.demo.entity.Book?iban@30.19:30.23CALL6
+,src/main/java/com/jpa2/demo/entity/Book.java5 5(2j
+*com.jpa2.demo.entity.Book?iban@30.19:30.23CALL6
+,src/main/java/com/jpa2/demo/entity/Book.java5 5("2J
+intRETURN_TYPE6
+,src/main/java/com/jpa2/demo/entity/Book.java4 4(†
+(com.jpa2.demo.entity.Book?id@24.17:24.19VARIABLE6
+,src/main/java/com/jpa2/demo/entity/Book.java ("
+isFinalfalse"
+typeLong"è
+declarationStringz<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2V
+javax.persistence.LongTYPE6
+,src/main/java/com/jpa2/demo/entity/Book.java (ˇ
+*com.jpa2.demo.entity.Book?name@27.19:27.23VARIABLE6
+,src/main/java/com/jpa2/demo/entity/Book.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">name</mark>"
+isStaticfalse"
+accessprivate*name2X
+javax.persistence.StringTYPE6
+,src/main/java/com/jpa2/demo/entity/Book.java (ˇ
+*com.jpa2.demo.entity.Book?iban@30.19:30.23VARIABLE6
+,src/main/java/com/jpa2/demo/entity/Book.java ("
+isFinalfalse"
+typeString"g
+declarationStringR<mark class="modifier">private </mark>String <mark class="class-field">iban</mark>"
+isStaticfalse"
+accessprivate*iban2X
+javax.persistence.StringTYPE6
+,src/main/java/com/jpa2/demo/entity/Book.java (Ê
+,com.jpa2.demo.entity.Book?author@35.19:35.25VARIABLE6
+,src/main/java/com/jpa2/demo/entity/Book.java# #("
+isFinalfalse"
+typeAuthor"∆
+declarationString∞<mark class="modifier">private </mark>Author <mark class="class-field">author</mark> = FetchType.LAZY)
+@JsonBackReference
+@JoinColumn(name = "author_id")
+private Author author;"
+isStaticfalse"
+accessprivate*author2[
+com.jpa2.demo.entity.AuthorTYPE6
+,src/main/java/com/jpa2/demo/entity/Book.java# #(

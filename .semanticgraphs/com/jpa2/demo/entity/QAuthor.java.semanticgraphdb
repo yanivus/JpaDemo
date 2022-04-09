@@ -1,0 +1,145 @@
+
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java
+com.jpa2.demo.entity.QAuthorCLASSI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ("
+packagecom.jpa2.demo.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ç
+declarationStringÏ<mark class="annotation">@Generated("com.querydsl.codegen.DefaultEntitySerializer")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>QAuthor<mark class="modifier"> extends </mark>EntityPathBase<Author>"
+accesspublic*QAuthor2≤
+Xcom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadataFactory.String)DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (2√
+icom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Author>)DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java" "(2§
+Jcom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadata)DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java& &(2ì
+9com.jpa2.demo.entity.QAuthor?serialVersionUID@18.30:18.46DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (.2â
+/com.jpa2.demo.entity.QAuthor?author@20.32:20.38DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java  (&2à
+.com.jpa2.demo.entity.QAuthor?books@22.38:22.43DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java& (+2à
+.com.jpa2.demo.entity.QAuthor?email@24.28:24.33DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (!2ã
+1com.jpa2.demo.entity.QAuthor?fullName@26.28:26.36DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ($2Ö
++com.jpa2.demo.entity.QAuthor?id@28.34:28.36DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java" ($2è
+:com.querydsl.core.types.PathMetadataFactory.EntityPathBaseEXTENDI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (+2~
+com.jpa2.demo.entity.AuthorEXTEND_TYPE_ARGUMENTI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java, (2ñ
+Xcom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadataFactory.String)CONSTRUCTORI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ("n
+declarationStringY<mark class="modifier">public </mark><mark class="method">QAuthor</mark>(String variable)*QAuthor2¥
+acom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadataFactory.String)!variableCALLI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java( (02π
+acom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadataFactory.String)!variable	PARAMETERI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ("2v
+com.jpa2.demo.entity.QAuthorRETURN_TYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (ì
+acom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadataFactory.String)!variable	PARAMETERI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (""
+typeString"
+isFinalfalse"$
+declarationStringString variable*variable2Ö
+2com.querydsl.core.types.PathMetadataFactory.StringTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (ò
+icom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Author>)CONSTRUCTORI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java" "("Ä
+declarationStringk<mark class="modifier">public </mark><mark class="method">QAuthor</mark>(Path&lt;? extends Author&gt; path)*QAuthor2¡
+ncom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Author>)!pathCALLI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java# #(2¡
+ncom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Author>)!pathCALLI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java# #("2∆
+ncom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Author>)!path	PARAMETERI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java"* "(.2v
+com.jpa2.demo.entity.QAuthorRETURN_TYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java" "(°
+ncom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Author>)!path	PARAMETERI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java"* "(."
+typePath<? extends Author>"
+isFinalfalse"0
+declarationStringPath<? extends Author> path*path2o
+com.querydsl.core.types.PathTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java" "(Ú
+Jcom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadata)CONSTRUCTORI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java& &("t
+declarationString_<mark class="modifier">public </mark><mark class="method">QAuthor</mark>(PathMetadata metadata)*QAuthor2¶
+Scom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadata)!metadataCALLI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java' '($2´
+Scom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadata)!metadata	PARAMETERI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java&  &((2v
+com.jpa2.demo.entity.QAuthorRETURN_TYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java& &(Ç
+Scom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadata)!metadata	PARAMETERI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java&  &(("
+typePathMetadata"
+isFinalfalse"*
+declarationStringPathMetadata metadata*metadata2w
+$com.querydsl.core.types.PathMetadataTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java& &(®
+9com.jpa2.demo.entity.QAuthor?serialVersionUID@18.30:18.46VALUEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (."
+isFinaltrue"
+typelong"È
+declarationString”<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">long</mark> <mark class="class-field">serialVersionUID</mark> = -1746373771L;"
+isStatictrue"
+accessprivate*serialVersionUID2W
+longTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (ë
+/com.jpa2.demo.entity.QAuthor?author@20.32:20.38VALUEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java  (&"
+isFinaltrue"
+typeQAuthor"Ã
+declarationString∂<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>QAuthor <mark class="class-field">author</mark> = new QAuthor("author");"
+isStatictrue"
+accesspublic*author2o
+com.jpa2.demo.entity.QAuthorTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (Ç
+.com.jpa2.demo.entity.QAuthor?books@22.38:22.43VALUEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java& (+"
+isFinaltrue"
+typeSetPath<Book, QBook>"™
+declarationStringî<mark class="modifier">public </mark><mark class="modifier">final </mark>SetPath<Book, QBook> <mark class="class-field">books</mark> = <mark class="modifier">this</mark>.<Book, QBook>createSet("books"<mark class="modifier">,</mark> Book.class, QBook.class, PathInits.DIRECT2);"
+isStaticfalse"
+accesspublic*books2Ü
+3com.querydsl.core.types.PathMetadataFactory.SetPathTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (2u
+com.jpa2.demo.entity.BookTYPE_ARGUMENTI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (2v
+com.jpa2.demo.entity.QBookTYPE_ARGUMENTI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ($ã
+.com.jpa2.demo.entity.QAuthor?email@24.28:24.33VALUEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (!"
+isFinaltrue"
+type
+StringPath"©
+declarationStringì<mark class="modifier">public </mark><mark class="modifier">final </mark>StringPath <mark class="class-field">email</mark> = createString("email");"
+isStaticfalse"
+accesspublic*email2â
+6com.querydsl.core.types.PathMetadataFactory.StringPathTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (ó
+1com.jpa2.demo.entity.QAuthor?fullName@26.28:26.36VALUEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ($"
+isFinaltrue"
+type
+StringPath"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">final </mark>StringPath <mark class="class-field">fullName</mark> = createString("fullName");"
+isStaticfalse"
+accesspublic*fullName2â
+6com.querydsl.core.types.PathMetadataFactory.StringPathTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (ƒ
++com.jpa2.demo.entity.QAuthor?id@28.34:28.36VALUEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java" ($"
+isFinaltrue"
+typeNumberPath<Long>"”
+declarationStringΩ<mark class="modifier">public </mark><mark class="modifier">final </mark>NumberPath<Long> <mark class="class-field">id</mark> = createNumber("id"<mark class="modifier">,</mark> Long.class);"
+isStaticfalse"
+accesspublic*id2â
+6com.querydsl.core.types.PathMetadataFactory.NumberPathTYPEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (2å
+0com.querydsl.core.types.PathMetadataFactory.LongTYPE_ARGUMENTI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ( 

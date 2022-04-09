@@ -1,0 +1,206 @@
+
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javaõ
+/com.jpa2.demo.repository.jpa.BaseRepositoryImplCLASSL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (("'
+packagecom.jpa2.demo.repository.jpa"
+isFinalfalse"
+inner classfalse"
+
+isAbstracttrue"°
+declarationStringã<mark class="modifier">public </mark><mark class="modifier">abstract </mark><mark class="modifier">class </mark>BaseRepositoryImpl<mark class="modifier"> extends </mark>SimpleJpaRepository<T, ID><mark class="modifier"><br>implements </mark>BaseRepository&lt;T, ID&gt;"
+accesspublic*BaseRepositoryImpl2‘
+wcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2¢
+Ecom.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2î
+7com.jpa2.demo.repository.jpa.BaseRepositoryImpl.clear()DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java# #(2ñ
+9com.jpa2.demo.repository.jpa.BaseRepositoryImpl.detach(T)DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' '(2ü
+Bcom.jpa2.demo.repository.jpa.BaseRepositoryImpl?author@13.28:13.34DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java ("2ù
+@com.jpa2.demo.repository.jpa.BaseRepositoryImpl?book@14.26:14.30DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2õ
+>com.jpa2.demo.repository.jpa.BaseRepositoryImpl?em@16.32:16.34DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java  ("2•
+Hcom.jpa2.demo.repository.jpa.BaseRepositoryImpl?queryFactory@17.36:17.48DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java$ (02
+'com.jpa2.demo.repository.BaseRepositoryEXTENDL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java^ (l2õ
+Corg.springframework.data.jpa.repository.support.SimpleJpaRepositoryEXTENDL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java8 (K2ë
+1com.jpa2.demo.repository.jpa.BaseRepositoryImpl.TTYPE_PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java) (*2í
+2com.jpa2.demo.repository.jpa.BaseRepositoryImpl.IDTYPE_PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java, (.2ó
+1com.jpa2.demo.repository.jpa.BaseRepositoryImpl.TEXTEND_TYPE_ARGUMENTL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javam (n2ò
+2com.jpa2.demo.repository.jpa.BaseRepositoryImpl.IDEXTEND_TYPE_ARGUMENTL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javap (r2ó
+1com.jpa2.demo.repository.jpa.BaseRepositoryImpl.TEXTEND_TYPE_ARGUMENTL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javaL (M2ò
+2com.jpa2.demo.repository.jpa.BaseRepositoryImpl.IDEXTEND_TYPE_ARGUMENTL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javaO (Qπ
+wcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)CONSTRUCTORL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java ("˜
+declarationString·<mark class="modifier">public </mark><mark class="method">BaseRepositoryImpl</mark>(Class&lt;<mark class="type-parameter">T</mark>&gt; domainClass<mark class="modifier"><mark class="modifier">,</mark></mark> EntityManager em)*BaseRepositoryImpl2⁄
+Écom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)!domainClassCALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2–
+zcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)!emCALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2–
+zcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)!emCALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2–
+zcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)!emCALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java0 (22î
+>com.jpa2.demo.repository.jpa.BaseRepositoryImpl?em@16.32:16.34CALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2û
+Hcom.jpa2.demo.repository.jpa.BaseRepositoryImpl?queryFactory@17.36:17.48CALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2ﬂ
+Écom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)!domainClass	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' (22’
+zcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)!em	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javaB (D2å
+/com.jpa2.demo.repository.jpa.BaseRepositoryImplRETURN_TYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (Ÿ
+Écom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)!domainClass	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' (2"
+typeClass<T>"
+isFinalfalse"M
+declarationString8Class<<mark class="type-parameter">T</mark>> domainClass*domainClass2e
+java.lang.ClassTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (#2ê
+1com.jpa2.demo.repository.jpa.BaseRepositoryImpl.TTYPE_ARGUMENTL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java$ (%†
+zcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)!em	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javaB (D"
+typeEntityManager"
+isFinalfalse"%
+declarationStringEntityManager em*em2u
+javax.persistence.EntityManagerTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java4 (AÈ
+Ecom.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)METHODL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java ("
+isFinalfalse"–
+declarationString∫<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark><mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="type-parameter">ID</mark></mark>&gt; T <mark class="method">findByIdMandatory</mark>(<mark class="type-parameter">ID</mark> id)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>DbResultNotFoundException"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"	
+typeT*findByIdMandatory2≥
+]com.jpa2.demo.exception.DbResultNotFoundException.DbResultNotFoundException(java.lang.String)CALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (82û
+Hcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)!idCALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2†
+Hcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)!idCALLN
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javaä (å2¥
+^com.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)?errorMessage@30.27:30.39CALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java9 (E2ó
+=com.jpa2.demo.repository.BaseRepository.findByIdMandatory(ID)OVERRIDEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2£
+Hcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)!id	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java" ($2ª
+^com.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)?errorMessage@30.27:30.39DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java ('2^
+TRETURN_TYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (Å
+^com.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)?errorMessage@30.27:30.39VARIABLEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java ('"
+typeString"
+isFinalfalse"ã
+declarationStringı<mark class="modifier"> </mark>String <mark class="class-field">errorMessage</mark> = String.format("Entity [%s] with id [%s] was not found in DB"<mark class="modifier">,</mark> getDomainClass().getSimpleName()<mark class="modifier">,</mark> id)*errorMessage2f
+java.lang.StringTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (2†
+Hcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)!idCALLN
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.javaä (åê
+Hcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.findByIdMandatory(ID)!id	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java" ($"
+
+typeID"
+isFinalfalse">
+declarationString)<mark class="type-parameter">ID</mark> id*id2à
+2com.jpa2.demo.repository.jpa.BaseRepositoryImpl.IDTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (!™
+7com.jpa2.demo.repository.jpa.BaseRepositoryImpl.clear()METHODL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java# #("
+isFinalfalse"±
+declarationStringõ<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark><mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="type-parameter">ID</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">clear</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*clear2î
+>com.jpa2.demo.repository.jpa.BaseRepositoryImpl?em@16.32:16.34CALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java$ $(
+2â
+/com.jpa2.demo.repository.BaseRepository.clear()OVERRIDEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java# #(2a
+voidRETURN_TYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java# #(ì
+
+9com.jpa2.demo.repository.jpa.BaseRepositoryImpl.detach(T)METHODL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' '("
+isFinalfalse"ﬁ
+declarationString»<mark class="modifier">public </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark><mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="type-parameter">ID</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">detach</mark>(<mark class="type-parameter">T</mark> entity)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*detach2î
+>com.jpa2.demo.repository.jpa.BaseRepositoryImpl?em@16.32:16.34CALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java( ((
+2ñ
+@com.jpa2.demo.repository.jpa.BaseRepositoryImpl.detach(T)!entityCALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java( ((2ã
+1com.jpa2.demo.repository.BaseRepository.detach(T)OVERRIDEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' '(2õ
+@com.jpa2.demo.repository.jpa.BaseRepositoryImpl.detach(T)!entity	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' '(2a
+voidRETURN_TYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' '(ç
+@com.jpa2.demo.repository.jpa.BaseRepositoryImpl.detach(T)!entity	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' '("	
+typeT"
+isFinalfalse"A
+declarationString,<mark class="type-parameter">T</mark> entity*entity2á
+1com.jpa2.demo.repository.jpa.BaseRepositoryImpl.TTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java' '(Ö
+Bcom.jpa2.demo.repository.jpa.BaseRepositoryImpl?author@13.28:13.34VALUEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (""
+isFinaltrue"
+typeQAuthor"£
+declarationStringç<mark class="modifier">protected </mark><mark class="modifier">final </mark>QAuthor <mark class="class-field">author</mark> = QAuthor.author;"
+isStaticfalse"
+access	protected*author2r
+com.jpa2.demo.entity.QAuthorTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (ı
+@com.jpa2.demo.repository.jpa.BaseRepositoryImpl?book@14.26:14.30VALUEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java ("
+isFinaltrue"
+typeQBook"õ
+declarationStringÖ<mark class="modifier">protected </mark><mark class="modifier">final </mark>QBook <mark class="class-field">book</mark> = QBook.book;"
+isStaticfalse"
+access	protected*book2p
+com.jpa2.demo.entity.QBookTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (Ò
+>com.jpa2.demo.repository.jpa.BaseRepositoryImpl?em@16.32:16.34VALUEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java  (""
+isFinaltrue"
+typeEntityManager"ê
+declarationString{<mark class="modifier">private </mark><mark class="modifier">final </mark>EntityManager <mark class="class-field">em</mark>"
+isStaticfalse"
+accessprivate*em2u
+javax.persistence.EntityManagerTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (û
+Hcom.jpa2.demo.repository.jpa.BaseRepositoryImpl?queryFactory@17.36:17.48VALUEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java$ (0"
+isFinaltrue"
+typeJPAQueryFactory"ü
+declarationStringâ<mark class="modifier">protected </mark><mark class="modifier">final </mark>JPAQueryFactory <mark class="class-field">queryFactory</mark>"
+isStaticfalse"
+access	protected*queryFactory2{
+%com.querydsl.jpa.impl.JPAQueryFactoryTYPEL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java (#î
+1com.jpa2.demo.repository.jpa.BaseRepositoryImpl.TTYPE_PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java) (**Tñ
+2com.jpa2.demo.repository.jpa.BaseRepositoryImpl.IDTYPE_PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BaseRepositoryImpl.java, (.*ID

@@ -1,0 +1,39 @@
+
+>src/main/java/com/jpa2/demo/controller/MainRestController.javaÁ
++com.jpa2.demo.controller.MainRestControllerCLASSH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java ("#
+packagecom.jpa2.demo.controller"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"•
+declarationStringè<mark class="annotation">@RestController</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>MainRestController"
+accesspublic*MainRestController2í
+9com.jpa2.demo.controller.MainRestController.showAuthors()DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (#2°
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@18.21:18.37DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (%ò
+9com.jpa2.demo.controller.MainRestController.showAuthors()METHODH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (#"
+isFinalfalse"î
+declarationString˛ = "/authors"<mark class="modifier"><mark class="modifier">,</mark></mark> method = RequestMethod.GET) <br><mark class="annotation">@ResponseBody</mark> <br><mark class="modifier">public </mark>List&lt;Author&gt; <mark class="method">showAuthors</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<Author>*showAuthors2ö
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@18.21:18.37CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (2g
+java.util.ListRETURN_TYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (2}
+com.jpa2.demo.entity.AuthorRETURN_TYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (É
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@18.21:18.37VARIABLEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (%"
+isFinalfalse"
+typeAuthorRepository"v
+declarationStringa<mark class="modifier"> </mark>AuthorRepository <mark class="class-field">authorRepository</mark>"
+isStaticfalse"
+accesspackage_private*authorRepository2
+-com.jpa2.demo.repository.jpa.AuthorRepositoryTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (

@@ -1,0 +1,127 @@
+
+.src/main/java/com/jpa2/demo/entity/Author.java¶
+
+com.jpa2.demo.entity.AuthorCLASS8
+.src/main/java/com/jpa2/demo/entity/Author.java ("
+packagecom.jpa2.demo.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Û
+declarationString›<mark class="annotation">@Getter</mark> <br><mark class="annotation">@Setter</mark> <br><mark class="annotation">@Entity</mark> <br><mark class="annotation">@Accessors(chain = true)</mark> <br><mark class="annotation">@ToString(onlyExplicitlyIncluded = true)</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Author"
+accesspublic*Author2Ö
+<com.jpa2.demo.entity.Author.equals(javax.persistence.Object)DECLARATION8
+.src/main/java/com/jpa2/demo/entity/Author.java$ $(2o
+&com.jpa2.demo.entity.Author.hashCode()DECLARATION8
+.src/main/java/com/jpa2/demo/entity/Author.java, ,(2s
+*com.jpa2.demo.entity.Author?id@23.17:23.19DECLARATION8
+.src/main/java/com/jpa2/demo/entity/Author.java (2v
+-com.jpa2.demo.entity.Author?email@26.19:26.24DECLARATION8
+.src/main/java/com/jpa2/demo/entity/Author.java (2z
+1com.jpa2.demo.entity.Author?full_name@29.19:29.28DECLARATION8
+.src/main/java/com/jpa2/demo/entity/Author.java (2v
+-com.jpa2.demo.entity.Author?books@33.22:33.27DECLARATION8
+.src/main/java/com/jpa2/demo/entity/Author.java! !(à
+<com.jpa2.demo.entity.Author.equals(javax.persistence.Object)METHOD8
+.src/main/java/com/jpa2/demo/entity/Author.java$ $("
+isFinalfalse"ª
+declarationString•<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">boolean</mark> <mark class="method">equals</mark>(Object o)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeboolean*equals2]
+java.lang.Object.getClass()CALL8
+.src/main/java/com/jpa2/demo/entity/Author.java& &(!2Ä
+>com.jpa2.demo.entity.Author.equals(javax.persistence.Object)!oCALL8
+.src/main/java/com/jpa2/demo/entity/Author.java% %(2Ä
+>com.jpa2.demo.entity.Author.equals(javax.persistence.Object)!oCALL8
+.src/main/java/com/jpa2/demo/entity/Author.java& &(2Ä
+>com.jpa2.demo.entity.Author.equals(javax.persistence.Object)!oCALL8
+.src/main/java/com/jpa2/demo/entity/Author.java&' &((2Ä
+>com.jpa2.demo.entity.Author.equals(javax.persistence.Object)!oCALL8
+.src/main/java/com/jpa2/demo/entity/Author.java'! '("2o
+-com.jpa2.demo.entity.Author?email@26.19:26.24CALL8
+.src/main/java/com/jpa2/demo/entity/Author.java( ((#2ë
+Ocom.jpa2.demo.entity.Author.equals(javax.persistence.Object)?author@39.15:39.21CALL8
+.src/main/java/com/jpa2/demo/entity/Author.java(% ((+2Ö
+>com.jpa2.demo.entity.Author.equals(javax.persistence.Object)!o	PARAMETER8
+.src/main/java/com/jpa2/demo/entity/Author.java$! $("2ò
+Ocom.jpa2.demo.entity.Author.equals(javax.persistence.Object)?author@39.15:39.21DECLARATION8
+.src/main/java/com/jpa2/demo/entity/Author.java' '(2P
+booleanRETURN_TYPE8
+.src/main/java/com/jpa2/demo/entity/Author.java$ $(í
+Ocom.jpa2.demo.entity.Author.equals(javax.persistence.Object)?author@39.15:39.21VARIABLE8
+.src/main/java/com/jpa2/demo/entity/Author.java' '("
+typeAuthor"
+isFinalfalse"o
+declarationStringZ<mark class="modifier"> </mark>Author <mark class="class-field">author</mark> = (Author) o*author2]
+com.jpa2.demo.entity.AuthorTYPE8
+.src/main/java/com/jpa2/demo/entity/Author.java' '(2Ä
+>com.jpa2.demo.entity.Author.equals(javax.persistence.Object)!oCALL8
+.src/main/java/com/jpa2/demo/entity/Author.java'! '("•
+>com.jpa2.demo.entity.Author.equals(javax.persistence.Object)!o	PARAMETER8
+.src/main/java/com/jpa2/demo/entity/Author.java$! $(""
+typeObject"
+isFinalfalse"
+declarationStringObject o*o2Z
+javax.persistence.ObjectTYPE8
+.src/main/java/com/jpa2/demo/entity/Author.java$ $( Ø
+&com.jpa2.demo.entity.Author.hashCode()METHOD8
+.src/main/java/com/jpa2/demo/entity/Author.java, ,("
+isFinalfalse"±
+declarationStringõ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark><mark class="modifier">int</mark> <mark class="method">hashCode</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeint*hashCode2m
++java.util.Objects.hash(java.lang.Object...)CALL8
+.src/main/java/com/jpa2/demo/entity/Author.java- -(2o
+-com.jpa2.demo.entity.Author?email@26.19:26.24CALL8
+.src/main/java/com/jpa2/demo/entity/Author.java- -(!2L
+intRETURN_TYPE8
+.src/main/java/com/jpa2/demo/entity/Author.java, ,(¶
+*com.jpa2.demo.entity.Author?id@23.17:23.19VARIABLE8
+.src/main/java/com/jpa2/demo/entity/Author.java ("
+isFinalfalse"
+typeLong"è
+declarationStringz<mark class="modifier">private </mark>Long <mark class="class-field">id</mark> = GenerationType.IDENTITY)
+private Long id;"
+isStaticfalse"
+accessprivate*id2X
+javax.persistence.LongTYPE8
+.src/main/java/com/jpa2/demo/entity/Author.java (à
+-com.jpa2.demo.entity.Author?email@26.19:26.24VARIABLE8
+.src/main/java/com/jpa2/demo/entity/Author.java ("
+isFinalfalse"
+typeString"h
+declarationStringS<mark class="modifier">private </mark>String <mark class="class-field">email</mark>"
+isStaticfalse"
+accessprivate*email2Z
+javax.persistence.StringTYPE8
+.src/main/java/com/jpa2/demo/entity/Author.java (î
+1com.jpa2.demo.entity.Author?full_name@29.19:29.28VARIABLE8
+.src/main/java/com/jpa2/demo/entity/Author.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">full_name</mark>"
+isStaticfalse"
+accessprivate*	full_name2Z
+javax.persistence.StringTYPE8
+.src/main/java/com/jpa2/demo/entity/Author.java (ó
+-com.jpa2.demo.entity.Author?books@33.22:33.27VARIABLE8
+.src/main/java/com/jpa2/demo/entity/Author.java! !("
+isFinalfalse"
+type	Set<Book>"π
+declarationString£<mark class="modifier">private </mark>Set<Book> <mark class="class-field">books</mark> = "author")
+@JsonManagedReference
+private Set<Book> books = new HashSet<>();"
+isStaticfalse"
+accessprivate*books2O
+java.util.SetTYPE8
+.src/main/java/com/jpa2/demo/entity/Author.java! !(2d
+com.jpa2.demo.entity.BookTYPE_ARGUMENT8
+.src/main/java/com/jpa2/demo/entity/Author.java! !(2]
+java.util.HashSet.HashSet()CALL8
+.src/main/java/com/jpa2/demo/entity/Author.java!" !(+

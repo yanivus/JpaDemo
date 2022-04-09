@@ -1,0 +1,33 @@
+
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.javaˇ
+1com.jpa2.demo.exception.DbResultNotFoundExceptionCLASSN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java (&""
+packagecom.jpa2.demo.exception"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"Ø
+declarationStringô<mark class="modifier">public </mark><mark class="modifier">class </mark>DbResultNotFoundException<mark class="modifier"> extends </mark>RuntimeException"
+accesspublic*DbResultNotFoundException2º
+]com.jpa2.demo.exception.DbResultNotFoundException.DbResultNotFoundException(java.lang.String)DECLARATIONN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java ($2t
+java.lang.RuntimeExceptionEXTENDN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java/ (?à
+]com.jpa2.demo.exception.DbResultNotFoundException.DbResultNotFoundException(java.lang.String)CONSTRUCTORN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java ($"
+declarationStringj<mark class="modifier">public </mark><mark class="method">DbResultNotFoundException</mark>(String message)*DbResultNotFoundException2ï
+=java.lang.RuntimeException.RuntimeException(java.lang.String)CALLN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java (2Ω
+ecom.jpa2.demo.exception.DbResultNotFoundException.DbResultNotFoundException(java.lang.String)!messageCALLN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java (2¬
+ecom.jpa2.demo.exception.DbResultNotFoundException.DbResultNotFoundException(java.lang.String)!message	PARAMETERN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java, (32ê
+1com.jpa2.demo.exception.DbResultNotFoundExceptionRETURN_TYPEN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java ($¸
+ecom.jpa2.demo.exception.DbResultNotFoundException.DbResultNotFoundException(java.lang.String)!message	PARAMETERN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java, (3"
+typeString"
+isFinalfalse"#
+declarationStringString message*message2h
+java.lang.StringTYPEN
+Dsrc/main/java/com/jpa2/demo/exception/DbResultNotFoundException.java% (+

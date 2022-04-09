@@ -1,0 +1,237 @@
+
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.javaû
+com.jpa2.demo.entity.QBookCLASSG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ("
+packagecom.jpa2.demo.entity"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"˛
+declarationStringË<mark class="annotation">@Generated("com.querydsl.codegen.DefaultEntitySerializer")</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>QBook<mark class="modifier"> extends </mark>EntityPathBase<Book>"
+accesspublic*QBook2¨
+Tcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.String)DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java   (2ª
+ccom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Book>)DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java$ $(2û
+Fcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata)DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java( ((2≈
+mcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java, ,(2û
+≈com.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0 0(2è
+7com.jpa2.demo.entity.QBook?serialVersionUID@18.30:18.46DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (.2Ñ
+,com.jpa2.demo.entity.QBook?INITS@20.35:20.40DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java# ((2É
++com.jpa2.demo.entity.QBook?book@22.30:22.34DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ("2Ö
+-com.jpa2.demo.entity.QBook?author@24.25:24.31DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (2É
++com.jpa2.demo.entity.QBook?iban@26.28:26.32DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ( 2Å
+)com.jpa2.demo.entity.QBook?id@28.34:28.36DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java" ($2É
++com.jpa2.demo.entity.QBook?name@30.28:30.32DECLARATIONG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ( 2ç
+:com.querydsl.core.types.PathMetadataFactory.EntityPathBaseEXTENDG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ()2z
+com.jpa2.demo.entity.BookEXTEND_TYPE_ARGUMENTG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java* (.˚
+Tcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.String)CONSTRUCTORG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java   ("l
+declarationStringW<mark class="modifier">public </mark><mark class="method">QBook</mark>(String variable)*QBook2Æ
+]com.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.String)!variableCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java!% !(-2}
+,com.jpa2.demo.entity.QBook?INITS@20.35:20.40CALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java!0 !(52≥
+]com.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.String)!variable	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java   ( 2r
+com.jpa2.demo.entity.QBookRETURN_TYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java   (ã
+]com.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.String)!variable	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java   ( "
+typeString"
+isFinalfalse"$
+declarationStringString variable*variable2É
+2com.querydsl.core.types.PathMetadataFactory.StringTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java   (®
+
+ccom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Book>)CONSTRUCTORG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java$ $("|
+declarationStringg<mark class="modifier">public </mark><mark class="method">QBook</mark>(Path&lt;? extends Book&gt; path)*QBook2π
+hcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Book>)!pathCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java% %(2π
+hcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Book>)!pathCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java% %(!2π
+hcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Book>)!pathCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java%B %(F2}
+,com.jpa2.demo.entity.QBook?INITS@20.35:20.40CALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java%V %([2æ
+hcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Book>)!path	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java$& $(*2r
+com.jpa2.demo.entity.QBookRETURN_TYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java$ $(ì
+hcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.Path<? extends com.jpa2.demo.entity.Book>)!path	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java$& $(*"
+typePath<? extends Book>"
+isFinalfalse".
+declarationStringPath<? extends Book> path*path2m
+com.querydsl.core.types.PathTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java$ $(˙
+Fcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata)CONSTRUCTORG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java( (("r
+declarationString]<mark class="modifier">public </mark><mark class="method">QBook</mark>(PathMetadata metadata)*QBook2†
+Ocom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata)!metadataCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java) )(2†
+Ocom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata)!metadataCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java)( )(02}
+,com.jpa2.demo.entity.QBook?INITS@20.35:20.40CALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java)2 )(72•
+Ocom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata)!metadata	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java( ((&2r
+com.jpa2.demo.entity.QBookRETURN_TYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java( ((˙
+Ocom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata)!metadata	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java( ((&"
+typePathMetadata"
+isFinalfalse"*
+declarationStringPathMetadata metadata*metadata2u
+$com.querydsl.core.types.PathMetadataTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java( ((Ø
+
+mcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)CONSTRUCTORG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java, ,("¿
+declarationString™<mark class="modifier">public </mark><mark class="method">QBook</mark>(PathMetadata metadata<mark class="modifier"><mark class="modifier">,</mark></mark> PathInits inits)*QBook2«
+vcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!metadataCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java- -(!2ƒ
+scom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!initsCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java-# -((2Ã
+vcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!metadata	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java, ,(&2…
+scom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!inits	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java,2 ,(72r
+com.jpa2.demo.entity.QBookRETURN_TYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java, ,(°
+vcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!metadata	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java, ,(&"
+typePathMetadata"
+isFinalfalse"*
+declarationStringPathMetadata metadata*metadata2u
+$com.querydsl.core.types.PathMetadataTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java, ,(ì
+scom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!inits	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java,2 ,(7"
+type	PathInits"
+isFinalfalse"$
+declarationStringPathInits inits*inits2v
+%com.querydsl.core.types.dsl.PathInitsTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java,( ,(1≠
+≈com.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)CONSTRUCTORG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0 0("û
+declarationStringà<mark class="modifier">public </mark><mark class="method">QBook</mark>(Class&lt;? extends Book&gt; type<mark class="modifier"><mark class="modifier">,</mark></mark> PathMetadata metadata<mark class="modifier"><mark class="modifier">,</mark></mark> PathInits inits)*QBook2ú
+ com.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!typeCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java1 1(2†
+Œcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!metadataCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java1 1(2ù
+Àcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!initsCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java1 1(#2ù
+Àcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!initsCALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java2 2(2~
+-com.jpa2.demo.entity.QBook?author@24.25:24.31CALLG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java2 2(2°
+ com.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!type	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0' 0(+2•
+Œcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!metadata	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0: 0(B2¢
+Àcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!inits	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0N 0(S2r
+com.jpa2.demo.entity.QBookRETURN_TYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0 0(é
+ com.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!type	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0' 0(+"
+typeClass<? extends Book>"
+isFinalfalse"/
+declarationStringClass<? extends Book> type*type2Ç
+1com.querydsl.core.types.PathMetadataFactory.ClassTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0 0(˙
+Œcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!metadata	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0: 0(B"
+typePathMetadata"
+isFinalfalse"*
+declarationStringPathMetadata metadata*metadata2u
+$com.querydsl.core.types.PathMetadataTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0- 0(9Ï
+Àcom.jpa2.demo.entity.QBook.QBook(com.querydsl.core.types.PathMetadataFactory.Class<? extends com.jpa2.demo.entity.Book>, com.querydsl.core.types.PathMetadata, com.querydsl.core.types.dsl.PathInits)!inits	PARAMETERG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0N 0(S"
+type	PathInits"
+isFinalfalse"$
+declarationStringPathInits inits*inits2v
+%com.querydsl.core.types.dsl.PathInitsTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java0D 0(M°
+7com.jpa2.demo.entity.QBook?serialVersionUID@18.30:18.46VALUEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (."
+isFinaltrue"
+typelong"Ë
+declarationString“<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark><mark class="modifier">long</mark> <mark class="class-field">serialVersionUID</mark> = 1468596051L;"
+isStatictrue"
+accessprivate*serialVersionUID2U
+longTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (ì
+,com.jpa2.demo.entity.QBook?INITS@20.35:20.40VALUEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java# (("
+isFinaltrue"
+type	PathInits" 
+declarationString¥<mark class="modifier">private </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>PathInits <mark class="class-field">INITS</mark> = PathInits.DIRECT2;"
+isStatictrue"
+accessprivate*INITS2v
+%com.querydsl.core.types.dsl.PathInitsTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ("˚
++com.jpa2.demo.entity.QBook?book@22.30:22.34VALUEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (""
+isFinaltrue"
+typeQBook"ƒ
+declarationStringÆ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">final </mark>QBook <mark class="class-field">book</mark> = new QBook("book");"
+isStatictrue"
+accesspublic*book2k
+com.jpa2.demo.entity.QBookTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (Õ
+-com.jpa2.demo.entity.QBook?author@24.25:24.31VALUEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ("
+isFinaltrue"
+typeQAuthor"ç
+declarationStringx<mark class="modifier">public </mark><mark class="modifier">final </mark>QAuthor <mark class="class-field">author</mark>"
+isStaticfalse"
+accesspublic*author2m
+com.jpa2.demo.entity.QAuthorTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (Å
++com.jpa2.demo.entity.QBook?iban@26.28:26.32VALUEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ( "
+isFinaltrue"
+type
+StringPath"ß
+declarationStringë<mark class="modifier">public </mark><mark class="modifier">final </mark>StringPath <mark class="class-field">iban</mark> = createString("iban");"
+isStaticfalse"
+accesspublic*iban2á
+6com.querydsl.core.types.PathMetadataFactory.StringPathTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (º
+)com.jpa2.demo.entity.QBook?id@28.34:28.36VALUEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java" ($"
+isFinaltrue"
+typeNumberPath<Long>"”
+declarationStringΩ<mark class="modifier">public </mark><mark class="modifier">final </mark>NumberPath<Long> <mark class="class-field">id</mark> = createNumber("id"<mark class="modifier">,</mark> Long.class);"
+isStaticfalse"
+accesspublic*id2á
+6com.querydsl.core.types.PathMetadataFactory.NumberPathTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (2ä
+0com.querydsl.core.types.PathMetadataFactory.LongTYPE_ARGUMENTG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ( Å
++com.jpa2.demo.entity.QBook?name@30.28:30.32VALUEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java ( "
+isFinaltrue"
+type
+StringPath"ß
+declarationStringë<mark class="modifier">public </mark><mark class="modifier">final </mark>StringPath <mark class="class-field">name</mark> = createString("name");"
+isStaticfalse"
+accesspublic*name2á
+6com.querydsl.core.types.PathMetadataFactory.StringPathTYPEG
+=target/generated-sources/java/com/jpa2/demo/entity/QBook.java (

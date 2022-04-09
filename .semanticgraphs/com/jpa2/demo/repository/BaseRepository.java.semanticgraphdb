@@ -1,0 +1,89 @@
+
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java™
+'com.jpa2.demo.repository.BaseRepositoryTRAITD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java ("#
+packagecom.jpa2.demo.repository"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"‚
+declarationStringÃ<mark class="annotation">@NoRepositoryBean</mark> <br><mark class="modifier">public </mark><mark class="modifier">interface </mark>BaseRepository<mark class="modifier"> extends </mark>JpaRepository<T, ID>"
+accesspublic*BaseRepository2í
+=com.jpa2.demo.repository.BaseRepository.findByIdMandatory(ID)DECLARATIOND
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java (2Ñ
+/com.jpa2.demo.repository.BaseRepository.clear()DECLARATIOND
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java
+	 
+(2Ü
+1com.jpa2.demo.repository.BaseRepository.detach(T)DECLARATIOND
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java	 (2Ö
+5org.springframework.data.jpa.repository.JpaRepositoryEXTENDD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java/ (<2Å
+)com.jpa2.demo.repository.BaseRepository.TTYPE_PARAMETERD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java  (!2Ç
+*com.jpa2.demo.repository.BaseRepository.IDTYPE_PARAMETERD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java# (%2á
+)com.jpa2.demo.repository.BaseRepository.TEXTEND_TYPE_ARGUMENTD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java= (>2à
+*com.jpa2.demo.repository.BaseRepository.IDEXTEND_TYPE_ARGUMENTD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java@ (Bç
+=com.jpa2.demo.repository.BaseRepository.findByIdMandatory(ID)METHODD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java ("
+isFinalfalse"ú
+declarationStringÜ<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark><mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="type-parameter">ID</mark></mark>&gt; T <mark class="method">findByIdMandatory</mark>(<mark class="type-parameter">ID</mark> id)<mark class="modifier"> <mark class="modifier">throws</mark> </mark>DbResultNotFoundException"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"	
+typeT*findByIdMandatory2ì
+@com.jpa2.demo.repository.BaseRepository.findByIdMandatory(ID)!id	PARAMETERD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java (2V
+TRETURN_TYPED
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java (Ô
+@com.jpa2.demo.repository.BaseRepository.findByIdMandatory(ID)!id	PARAMETERD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java ("
+
+typeID"
+isFinalfalse">
+declarationString)<mark class="type-parameter">ID</mark> id*id2x
+*com.jpa2.demo.repository.BaseRepository.IDTYPED
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java (Ú
+/com.jpa2.demo.repository.BaseRepository.clear()METHODD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java
+	 
+("
+isFinalfalse"´
+declarationStringï<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark><mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="type-parameter">ID</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">clear</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*clear2Y
+voidRETURN_TYPED
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java
+ 
+(∞
+1com.jpa2.demo.repository.BaseRepository.detach(T)METHODD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java	 ("
+isFinalfalse"ÿ
+declarationString¬<mark class="modifier"> </mark>&lt;<mark class="modifier"><mark class="type-parameter">T</mark><mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="type-parameter">ID</mark></mark>&gt; <mark class="modifier">void</mark> <mark class="method">detach</mark>(<mark class="type-parameter">T</mark> entity)"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*detach2ã
+8com.jpa2.demo.repository.BaseRepository.detach(T)!entity	PARAMETERD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java (2Y
+voidRETURN_TYPED
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java (Ï
+8com.jpa2.demo.repository.BaseRepository.detach(T)!entity	PARAMETERD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java ("	
+typeT"
+isFinalfalse"A
+declarationString,<mark class="type-parameter">T</mark> entity*entity2w
+)com.jpa2.demo.repository.BaseRepository.TTYPED
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java (Ñ
+)com.jpa2.demo.repository.BaseRepository.TTYPE_PARAMETERD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java  (!*TÜ
+*com.jpa2.demo.repository.BaseRepository.IDTYPE_PARAMETERD
+:src/main/java/com/jpa2/demo/repository/BaseRepository.java# (%*ID

@@ -1,0 +1,24 @@
+
+5src/test/java/com/jpa2/demo/DemoApplicationTests.javaú
+"com.jpa2.demo.DemoApplicationTestsCLASS?
+5src/test/java/com/jpa2/demo/DemoApplicationTests.java ("
+packagecom.jpa2.demo"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"°
+declarationStringã<mark class="annotation">@SpringBootTest</mark> <br><mark class="modifier"> </mark><mark class="modifier">class </mark>DemoApplicationTests"
+accesspackage_private*DemoApplicationTests2Å
+1com.jpa2.demo.DemoApplicationTests.contextLoads()DECLARATION?
+5src/test/java/com/jpa2/demo/DemoApplicationTests.java	 	(Ú
+1com.jpa2.demo.DemoApplicationTests.contextLoads()METHOD?
+5src/test/java/com/jpa2/demo/DemoApplicationTests.java	 	("
+isFinalfalse"¨
+declarationStringñ<mark class="annotation">@Test</mark> <br><mark class="modifier"> </mark><mark class="modifier">void</mark> <mark class="method">contextLoads</mark>()"
+isStaticfalse"
+accesspackage_private"
+
+isAbstractfalse"
+typevoid*contextLoads2T
+voidRETURN_TYPE?
+5src/test/java/com/jpa2/demo/DemoApplicationTests.java	 	(
