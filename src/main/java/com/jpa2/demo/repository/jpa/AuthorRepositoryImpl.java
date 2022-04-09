@@ -30,9 +30,9 @@ public class AuthorRepositoryImpl extends BaseRepositoryImpl<Author, Long> imple
         return queryFactory
                 .from(author)
                 .innerJoin(author.books, book)
-                .groupBy(author.fullName)
+                .groupBy(author.full_name)
                 .select(Projections.constructor(AuthorStatistic.class,
-                        author.fullName,
+                        author.full_name,
                         book.count())
                 )
                 .fetch();

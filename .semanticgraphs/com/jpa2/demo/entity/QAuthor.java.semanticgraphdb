@@ -1,5 +1,5 @@
 
-?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.javaÒ
 com.jpa2.demo.entity.QAuthorCLASSI
 ?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ("
 packagecom.jpa2.demo.entity"
@@ -22,9 +22,9 @@ Jcom.jpa2.demo.entity.QAuthor.QAuthor(com.querydsl.core.types.PathMetadata)DEC
 .com.jpa2.demo.entity.QAuthor?books@22.38:22.43DECLARATIONI
 ?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java& (+2à
 .com.jpa2.demo.entity.QAuthor?email@24.28:24.33DECLARATIONI
-?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (!2ã
-1com.jpa2.demo.entity.QAuthor?fullName@26.28:26.36DECLARATIONI
-?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ($2Ö
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (!2å
+2com.jpa2.demo.entity.QAuthor?full_name@26.28:26.37DECLARATIONI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (%2Ö
 +com.jpa2.demo.entity.QAuthor?id@28.34:28.36DECLARATIONI
 ?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java" ($2è
 :com.querydsl.core.types.PathMetadataFactory.EntityPathBaseEXTENDI
@@ -121,15 +121,15 @@ StringPath"©
 isStaticfalse"
 accesspublic*email2â
 6com.querydsl.core.types.PathMetadataFactory.StringPathTYPEI
-?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (ó
-1com.jpa2.demo.entity.QAuthor?fullName@26.28:26.36VALUEI
-?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java ($"
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (õ
+2com.jpa2.demo.entity.QAuthor?full_name@26.28:26.37VALUEI
+?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (%"
 isFinaltrue"
 type
-StringPath"Ø
-declarationStringô<mark class="modifier">public </mark><mark class="modifier">final </mark>StringPath <mark class="class-field">fullName</mark> = createString("fullName");"
+StringPath"±
+declarationStringõ<mark class="modifier">public </mark><mark class="modifier">final </mark>StringPath <mark class="class-field">full_name</mark> = createString("full_name");"
 isStaticfalse"
-accesspublic*fullName2â
+accesspublic*	full_name2â
 6com.querydsl.core.types.PathMetadataFactory.StringPathTYPEI
 ?target/generated-sources/java/com/jpa2/demo/entity/QAuthor.java (ƒ
 +com.jpa2.demo.entity.QAuthor?id@28.34:28.36VALUEI
