@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.jpa2</groupId>
 	<artifactId>demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>demo</name>
 	<description>demo</description>
 	<properties>
@@ -34,18 +34,18 @@
 		<dependency>
 			<groupId>org.apache.ant</groupId>
 			<artifactId>ant</artifactId>
-			<version>1.9.2</version>
+			<version>1.10.12</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.ant</groupId>
 			<artifactId>ant-launcher</artifactId>
-			<version>1.9.2</version>
+			<version>1.10.12</version>
 		</dependency>
 
 		<dependency>
 			<groupId>com.jcraft</groupId>
 			<artifactId>jsch</artifactId>
-			<version>0.1.50</version>
+			<version>0.1.55</version>
 		</dependency>
 
 

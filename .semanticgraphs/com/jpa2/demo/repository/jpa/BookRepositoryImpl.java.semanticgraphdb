@@ -1,56 +1,39 @@
 
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.javaº
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java–	
 /com.jpa2.demo.repository.jpa.BookRepositoryImplCLASSL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java ("'
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java ("'
 packagecom.jpa2.demo.repository.jpa"
 isFinalfalse"
 inner classfalse"
 
-isAbstractfalse"∂
-declarationString†<mark class="modifier">public </mark><mark class="modifier">class </mark>BookRepositoryImpl<mark class="modifier"> extends </mark>BaseRepositoryImpl<Book, Long>"
-accesspublic*BookRepositoryImpl2Ì
-ècom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(java.lang.Class<com.jpa2.demo.entity.Book>, javax.persistence.EntityManager)DECLARATIONL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	 	(2á
+isAbstractfalse"Ò
+declarationString€<mark class="modifier">public </mark><mark class="modifier">class </mark>BookRepositoryImpl<mark class="modifier"> extends </mark>BaseRepositoryImpl<Book, Long><mark class="modifier"><br>implements </mark>BookRepository"
+accesspublic*BookRepositoryImpl2¿
+ccom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(javax.persistence.EntityManager)DECLARATIONL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java (2É
++com.jpa2.demo.repository.jpa.BookRepositoryEXTENDL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.javaS (a2á
 /com.jpa2.demo.repository.jpa.BaseRepositoryImplEXTENDL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java( (:2
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java( (:2
 com.jpa2.demo.entity.BookEXTEND_TYPE_ARGUMENTL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java; (?2t
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java; (?2t
 java.lang.LongEXTEND_TYPE_ARGUMENTL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.javaA (EÖ
-ècom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(java.lang.Class<com.jpa2.demo.entity.Book>, javax.persistence.EntityManager)CONSTRUCTORL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	 	("÷
-declarationString¿<mark class="modifier">public </mark><mark class="method">BookRepositoryImpl</mark>(Class&lt;Book&gt; domainClass<mark class="modifier"><mark class="modifier">,</mark></mark> EntityManager em)*BookRepositoryImpl2Õ
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.javaA (E≤
+ccom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(javax.persistence.EntityManager)CONSTRUCTORL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java ("z
+declarationStringe<mark class="modifier">public </mark><mark class="method">BookRepositoryImpl</mark>(EntityManager em)*BookRepositoryImpl2Õ
 wcom.jpa2.demo.repository.jpa.BaseRepositoryImpl.BaseRepositoryImpl(java.lang.Class<T>, javax.persistence.EntityManager)CALLL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java
- 
-(2Ú
-õcom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(java.lang.Class<com.jpa2.demo.entity.Book>, javax.persistence.EntityManager)!domainClassCALLL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java
- 
-(2È
-ícom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(java.lang.Class<com.jpa2.demo.entity.Book>, javax.persistence.EntityManager)!emCALLL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java
- 
-(2˜
-õcom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(java.lang.Class<com.jpa2.demo.entity.Book>, javax.persistence.EntityManager)!domainClass	PARAMETERL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	* 	(52Ó
-ícom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(java.lang.Class<com.jpa2.demo.entity.Book>, javax.persistence.EntityManager)!em	PARAMETERL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	E 	(G2å
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java (2º
+fcom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(javax.persistence.EntityManager)!emCALLL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java (2¡
+fcom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(javax.persistence.EntityManager)!em	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java, (.2å
 /com.jpa2.demo.repository.jpa.BookRepositoryImplRETURN_TYPEL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	 	(∫
-õcom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(java.lang.Class<com.jpa2.demo.entity.Book>, javax.persistence.EntityManager)!domainClass	PARAMETERL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	* 	(5"
-typeClass<Book>"
-isFinalfalse",
-declarationStringClass<Book> domainClass*domainClass2e
-java.lang.ClassTYPEL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	 	(#2x
-com.jpa2.demo.entity.BookTYPE_ARGUMENTL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	$ 	((π
-ícom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(java.lang.Class<com.jpa2.demo.entity.Book>, javax.persistence.EntityManager)!em	PARAMETERL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	E 	(G"
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java (å
+fcom.jpa2.demo.repository.jpa.BookRepositoryImpl.BookRepositoryImpl(javax.persistence.EntityManager)!em	PARAMETERL
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java, (."
 typeEntityManager"
 isFinalfalse"%
 declarationStringEntityManager em*em2u
 javax.persistence.EntityManagerTYPEL
-Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java	7 	(D
+Bsrc/main/java/com/jpa2/demo/repository/jpa/BookRepositoryImpl.java (+

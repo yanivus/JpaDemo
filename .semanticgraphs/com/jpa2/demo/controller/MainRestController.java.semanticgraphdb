@@ -1,39 +1,253 @@
 
->src/main/java/com/jpa2/demo/controller/MainRestController.javaÁ
+>src/main/java/com/jpa2/demo/controller/MainRestController.javaà
 +com.jpa2.demo.controller.MainRestControllerCLASSH
->src/main/java/com/jpa2/demo/controller/MainRestController.java ("#
+>src/main/java/com/jpa2/demo/controller/MainRestController.java ("#
 packagecom.jpa2.demo.controller"
 isFinalfalse"
 inner classfalse"
 
 isAbstractfalse"•
 declarationStringè<mark class="annotation">@RestController</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>MainRestController"
-accesspublic*MainRestController2í
+accesspublic*MainRestController2«
+ncom.jpa2.demo.controller.MainRestController.setAuthorRepository(com.jpa2.demo.repository.jpa.AuthorRepository)DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (#2√
+jcom.jpa2.demo.controller.MainRestController.setBookRepository(com.jpa2.demo.repository.jpa.BookRepository)DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (!2í
 9com.jpa2.demo.controller.MainRestController.showAuthors()DECLARATIONH
->src/main/java/com/jpa2/demo/controller/MainRestController.java (#2°
-Hcom.jpa2.demo.controller.MainRestController?authorRepository@18.21:18.37DECLARATIONH
->src/main/java/com/jpa2/demo/controller/MainRestController.java (%ò
+>src/main/java/com/jpa2/demo/controller/MainRestController.java! !(#2ñ
+=com.jpa2.demo.controller.MainRestController.showAuthorStats()DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java'! '(02«
+ncom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java,, ,(>2ˆ
+úcom.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java6, 6(<2ê
+7com.jpa2.demo.controller.MainRestController.showBooks()DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java@ @(2°
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (%2ü
+Fcom.jpa2.demo.controller.MainRestController?bookRepository@20.19:20.33DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (!º	
+ncom.jpa2.demo.controller.MainRestController.setAuthorRepository(com.jpa2.demo.repository.jpa.AuthorRepository)METHODH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (#"
+isFinalfalse"ﬂ
+declarationString…<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setAuthorRepository</mark>(AuthorRepository authorRepository)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setAuthorRepository2—
+com.jpa2.demo.controller.MainRestController.setAuthorRepository(com.jpa2.demo.repository.jpa.AuthorRepository)!authorRepositoryCALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java  (02ö
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (2÷
+com.jpa2.demo.controller.MainRestController.setAuthorRepository(com.jpa2.demo.repository.jpa.AuthorRepository)!authorRepository	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java5 (E2]
+voidRETURN_TYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (Õ
+com.jpa2.demo.controller.MainRestController.setAuthorRepository(com.jpa2.demo.repository.jpa.AuthorRepository)!authorRepository	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java5 (E"
+typeAuthorRepository"
+isFinalfalse"6
+declarationString!AuthorRepository authorRepository*authorRepository2
+-com.jpa2.demo.repository.jpa.AuthorRepositoryTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java$ (4¢	
+jcom.jpa2.demo.controller.MainRestController.setBookRepository(com.jpa2.demo.repository.jpa.BookRepository)METHODH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (!"
+isFinalfalse"Ÿ
+declarationString√<mark class="annotation">@Autowired</mark> <br><mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setBookRepository</mark>(BookRepository bookRepository)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setBookRepository2À
+ycom.jpa2.demo.controller.MainRestController.setBookRepository(com.jpa2.demo.repository.jpa.BookRepository)!bookRepositoryCALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (,2ò
+Fcom.jpa2.demo.controller.MainRestController?bookRepository@20.19:20.33CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (2–
+ycom.jpa2.demo.controller.MainRestController.setBookRepository(com.jpa2.demo.repository.jpa.BookRepository)!bookRepository	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java1 (?2]
+voidRETURN_TYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (Ω
+ycom.jpa2.demo.controller.MainRestController.setBookRepository(com.jpa2.demo.repository.jpa.BookRepository)!bookRepository	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java1 (?"
+typeBookRepository"
+isFinalfalse"2
+declarationStringBookRepository bookRepository*bookRepository2}
++com.jpa2.demo.repository.jpa.BookRepositoryTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java" (0ö
 9com.jpa2.demo.controller.MainRestController.showAuthors()METHODH
->src/main/java/com/jpa2/demo/controller/MainRestController.java (#"
-isFinalfalse"î
-declarationString˛ = "/authors"<mark class="modifier"><mark class="modifier">,</mark></mark> method = RequestMethod.GET) <br><mark class="annotation">@ResponseBody</mark> <br><mark class="modifier">public </mark>List&lt;Author&gt; <mark class="method">showAuthors</mark>()"
+>src/main/java/com/jpa2/demo/controller/MainRestController.java! !(#"
+isFinalfalse"ñ
+declarationStringÄ<mark class="annotation">@RequestMapping(path</mark> = "/authors"<mark class="modifier"><mark class="modifier">,</mark></mark> method = RequestMethod.GET) <br><mark class="modifier">public </mark>List&lt;Author&gt; <mark class="method">showAuthors</mark>()"
 isStaticfalse"
 accesspublic"
 
 isAbstractfalse"
 typeList<Author>*showAuthors2ö
-Hcom.jpa2.demo.controller.MainRestController?authorRepository@18.21:18.37CALLH
->src/main/java/com/jpa2/demo/controller/MainRestController.java (2g
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java" "(2g
 java.util.ListRETURN_TYPEH
->src/main/java/com/jpa2/demo/controller/MainRestController.java (2}
+>src/main/java/com/jpa2/demo/controller/MainRestController.java! !(2}
 com.jpa2.demo.entity.AuthorRETURN_TYPE_ARGUMENTH
->src/main/java/com/jpa2/demo/controller/MainRestController.java (É
-Hcom.jpa2.demo.controller.MainRestController?authorRepository@18.21:18.37VARIABLEH
->src/main/java/com/jpa2/demo/controller/MainRestController.java (%"
+>src/main/java/com/jpa2/demo/controller/MainRestController.java! !(¡
+=com.jpa2.demo.controller.MainRestController.showAuthorStats()METHODH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java'! '(0"
+isFinalfalse"•
+declarationStringè = "/authorStats"<mark class="modifier"><mark class="modifier">,</mark></mark> method = RequestMethod.GET) <br><mark class="annotation">@ResponseBody</mark> <br><mark class="modifier">public </mark>List&lt;AuthorStatistic&gt; <mark class="method">showAuthorStats</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeList<AuthorStatistic>*showAuthorStats2ö
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java( ((2g
+java.util.ListRETURN_TYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java' '(2É
+!com.jpa2.demo.dto.AuthorStatisticRETURN_TYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java' '(Ë
+ncom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)METHODH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java,, ,(>"
+isFinalfalse"”
+declarationStringΩ = "/authorByEmail"<mark class="modifier"><mark class="modifier">,</mark></mark> method = RequestMethod.GET) <br><mark class="modifier">public </mark>ResponseEntity&lt;Optional&lt;Author&gt;&gt; <mark class="method">fetchAuthorByEmail</mark>(<mark class="annotation">@RequestParam(name</mark> = "email") String email)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"(
+type ResponseEntity<Optional<Author>>*fetchAuthorByEmail2ã
+9com.jpa2.demo.model.EmptyJsonResponse.EmptyJsonResponse()CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java1& 1(72ö
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java-" -(22∆
+tcom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)!emailCALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java-I -(N2‘
+Åcom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)?author@45.25:45.31CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java. .(2‘
+Åcom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)?author@45.25:45.31CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java/( /(.2À
+tcom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)!email	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java,b ,(g2€
+Åcom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)?author@45.25:45.31DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java- -(2Ä
+'org.springframework.http.ResponseEntityRETURN_TYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java, ,(2t
+java.util.OptionalRETURN_TYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java, ,("2}
+com.jpa2.demo.entity.AuthorRETURN_TYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java,# ,()
+Åcom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)?author@45.25:45.31VARIABLEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java- -("
+typeOptional<Author>"
+isFinalfalse"ù
+declarationStringá<mark class="modifier"> </mark>Optional<Author> <mark class="class-field">author</mark> = authorRepository.findByEmailIgnoreCase(email)*author2d
+java.util.OptionalTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java- -(2v
+com.jpa2.demo.entity.AuthorTYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java- -(2ö
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java-" -(22∆
+tcom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)!emailCALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java-I -(Nÿ
+tcom.jpa2.demo.controller.MainRestController.fetchAuthorByEmail(org.springframework.web.bind.annotation.String)!email	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java,b ,(g"
+typeString"
+isFinalfalse"_
+declarationStringJ<mark class="annotation">@RequestParam(name = "email")</mark> String email*email2Ä
+.org.springframework.web.bind.annotation.StringTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java,[ ,(a™
+úcom.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)METHODH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java6, 6(<"
+isFinalfalse"ç
+declarationString˜ = "name"<mark class="modifier"><mark class="modifier">,</mark></mark> required = <mark class="modifier">false</mark>) String name<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@RequestParam(name</mark> = "email"<mark class="modifier"><mark class="modifier">,</mark></mark> required = <mark class="modifier">false</mark>) String email)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"(
+type ResponseEntity<Optional<Author>>*fetchAuthorByAny2ã
+9com.jpa2.demo.model.EmptyJsonResponse.EmptyJsonResponse()CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java<& <(72ö
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8" 8(22Ù
+°com.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)!nameCALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8= 8(A2ı
+¢com.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)!emailCALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8C 8(H2Ç
+Øcom.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)?author@56.25:56.31CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java9 9(2Ç
+Øcom.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)?author@56.25:56.31CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java:( :(.2˘
+°com.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)!name	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java6q 6(u2˙
+¢com.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)!email	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java7r 7(w2â
+Øcom.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)?author@56.25:56.31DECLARATIONH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8 8(2Ä
+'org.springframework.http.ResponseEntityRETURN_TYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java6 6(2t
+java.util.OptionalRETURN_TYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java6 6("2}
+com.jpa2.demo.entity.AuthorRETURN_TYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java6# 6()æ
+
+Øcom.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)?author@56.25:56.31VARIABLEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8 8("
+typeOptional<Author>"
+isFinalfalse"ó
+declarationStringÅ<mark class="modifier"> </mark>Optional<Author> <mark class="class-field">author</mark> = authorRepository.findByAny(name, email)*author2d
+java.util.OptionalTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8 8(2v
+com.jpa2.demo.entity.AuthorTYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8 8(2ö
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8" 8(22Ù
+°com.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)!nameCALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8= 8(A2ı
+¢com.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)!emailCALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java8C 8(H”
+°com.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)!name	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java6q 6(u"
+typeString"
+isFinalfalse"¨
+declarationStringñ<mark class="annotation">@RequestParam(name = "name"<mark class="modifier">,</mark> required = <mark class="modifier">false</mark>)</mark> String name*name2Ä
+.org.springframework.web.bind.annotation.StringTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java6j 6(p◊
+¢com.jpa2.demo.controller.MainRestController.fetchAuthorByAny(org.springframework.web.bind.annotation.String, org.springframework.web.bind.annotation.String)!email	PARAMETERH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java7r 7(w"
+typeString"
+isFinalfalse"Æ
+declarationStringò<mark class="annotation">@RequestParam(name = "email"<mark class="modifier">,</mark> required = <mark class="modifier">false</mark>)</mark> String email*email2Ä
+.org.springframework.web.bind.annotation.StringTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java7k 7(qä
+7com.jpa2.demo.controller.MainRestController.showBooks()METHODH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java@ @("
+isFinalfalse"ê
+declarationString˙<mark class="annotation">@RequestMapping(path</mark> = "/books"<mark class="modifier"><mark class="modifier">,</mark></mark> method = RequestMethod.GET) <br><mark class="modifier">public </mark>List&lt;Book&gt; <mark class="method">showBooks</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+type
+List<Book>*	showBooks2ò
+Fcom.jpa2.demo.controller.MainRestController?bookRepository@20.19:20.33CALLH
+>src/main/java/com/jpa2/demo/controller/MainRestController.javaA A(2g
+java.util.ListRETURN_TYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java@ @(2{
+com.jpa2.demo.entity.BookRETURN_TYPE_ARGUMENTH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java@ @(É
+Hcom.jpa2.demo.controller.MainRestController?authorRepository@19.21:19.37VARIABLEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (%"
 isFinalfalse"
 typeAuthorRepository"v
 declarationStringa<mark class="modifier"> </mark>AuthorRepository <mark class="class-field">authorRepository</mark>"
 isStaticfalse"
 accesspackage_private*authorRepository2
 -com.jpa2.demo.repository.jpa.AuthorRepositoryTYPEH
->src/main/java/com/jpa2/demo/controller/MainRestController.java (
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (˜
+Fcom.jpa2.demo.controller.MainRestController?bookRepository@20.19:20.33VARIABLEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (!"
+isFinalfalse"
+typeBookRepository"r
+declarationString]<mark class="modifier"> </mark>BookRepository <mark class="class-field">bookRepository</mark>"
+isStaticfalse"
+accesspackage_private*bookRepository2}
++com.jpa2.demo.repository.jpa.BookRepositoryTYPEH
+>src/main/java/com/jpa2/demo/controller/MainRestController.java (
