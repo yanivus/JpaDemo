@@ -9,7 +9,7 @@ import java.util.Optional;
 
 public interface AuthorRepository extends BaseRepository<Author, Long> {
 
-    Optional<Author> findByAny(String name, String email);
+    List<Author> findByAny(String name, String email);
 
     Optional<Author> findByEmailIgnoreCase(String email);
 

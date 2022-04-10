@@ -5,9 +5,13 @@ import com.jpa2.demo.dto.AuthorStatistic;
 import com.jpa2.demo.entity.Author;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.Projections;
+import com.querydsl.core.types.dsl.BooleanExpression;
+import com.querydsl.jpa.impl.JPAQuery;
 
 import javax.persistence.EntityManager;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 import java.util.Optional;
 
 public class AuthorRepositoryImpl extends BaseRepositoryImpl<Author, Long> implements AuthorRepository {
@@ -17,19 +21,26 @@ public class AuthorRepositoryImpl extends BaseRepositoryImpl<Author, Long> imple
     }
 
     @Override
-    public Optional<Author> findByAny(String name, String email) {
+    public List<Author> findByAny(String name, String email) {
         BooleanBuilder where = new BooleanBuilder();
         if (name != null && name.length() > 0) {
-            where.or(author.full_name.equalsIgnoreCase(name));
+            where.or(author.full_name.toLowerCase().contains(name.toLowerCase(Locale.ROOT)));
         }
         if (email != null && email.length() > 0) {
-            where.or(author.email.equalsIgnoreCase(email));
+            where.or(author.email.toLowerCase().contains(email.toLowerCase(Locale.ROOT)));
         }
-        return Optional.ofNullable(queryFactory
+
+        Optional<List<Author>> authors = Optional.ofNullable(queryFactory
                 .select(author)
                 .from(author)
                 .where(where)
-                .fetchFirst());
+                .fetch());
+
+        if (authors.isPresent()) {
+            return authors.get();
+        }
+
+        return new ArrayList<Author>(0);
     }
 
     @Override
