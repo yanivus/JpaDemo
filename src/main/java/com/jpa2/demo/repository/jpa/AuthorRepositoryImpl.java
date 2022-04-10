@@ -3,8 +3,8 @@ package com.jpa2.demo.repository.jpa;
 
 import com.jpa2.demo.dto.AuthorStatistic;
 import com.jpa2.demo.entity.Author;
+import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.Projections;
-import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
 import java.util.List;
@@ -14,6 +14,22 @@ public class AuthorRepositoryImpl extends BaseRepositoryImpl<Author, Long> imple
 
     public AuthorRepositoryImpl(EntityManager em) {
         super(Author.class, em);
+    }
+
+    @Override
+    public Optional<Author> findByAny(String name, String email) {
+        BooleanBuilder where = new BooleanBuilder();
+        if (name != null && name.length() > 0) {
+            where.or(author.full_name.equalsIgnoreCase(name));
+        }
+        if (email != null && email.length() > 0) {
+            where.or(author.email.equalsIgnoreCase(email));
+        }
+        return Optional.ofNullable(queryFactory
+                .select(author)
+                .from(author)
+                .where(where)
+                .fetchFirst());
     }
 
     @Override

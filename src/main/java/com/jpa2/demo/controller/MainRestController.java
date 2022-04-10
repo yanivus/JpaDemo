@@ -42,14 +42,24 @@ public class MainRestController {
     }
 
     @RequestMapping(path="/authorByEmail", method = RequestMethod.GET)
-    public ResponseEntity<Optional<Author>> fetchAuthorByEmail(@RequestParam("email") String email) {
+    public ResponseEntity<Optional<Author>> fetchAuthorByEmail(@RequestParam(name="email") String email) {
         Optional<Author> author = authorRepository.findByEmailIgnoreCase(email);
         if (author.isPresent()) {
-            return new ResponseEntity<>(authorRepository.findByEmailIgnoreCase(email), HttpStatus.OK);
+            return new ResponseEntity<>(author, HttpStatus.OK);
         }
         return new ResponseEntity(new EmptyJsonResponse(), HttpStatus.OK);
     }
 
+
+    @RequestMapping(path="/authorByAny", method = RequestMethod.GET)
+    public ResponseEntity<Optional<Author>> fetchAuthorByAny(@RequestParam(name="name", required = false) String name,
+                                                             @RequestParam(name="email", required = false) String email) {
+        Optional<Author> author = authorRepository.findByAny(name, email);
+        if (author.isPresent()) {
+            return new ResponseEntity<>(author, HttpStatus.OK);
+        }
+        return new ResponseEntity(new EmptyJsonResponse(), HttpStatus.OK);
+    }
 
     @RequestMapping(path="/books", method = RequestMethod.GET)
     public List<Book> showBooks() {

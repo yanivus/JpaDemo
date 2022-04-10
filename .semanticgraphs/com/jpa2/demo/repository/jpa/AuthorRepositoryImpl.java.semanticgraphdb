@@ -1,5 +1,5 @@
 
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.javaù
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.javaº
 1com.jpa2.demo.repository.jpa.AuthorRepositoryImplCLASSN
 Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (!"'
 packagecom.jpa2.demo.repository.jpa"
@@ -10,13 +10,15 @@ isAbstractfalse"÷
 declarationStringá<mark class="modifier">public </mark><mark class="modifier">class </mark>AuthorRepositoryImpl<mark class="modifier"> extends </mark>BaseRepositoryImpl<Author, Long><mark class="modifier"><br>implements </mark>AuthorRepository"
 accesspublic*AuthorRepositoryImpl2Æ
 gcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.AuthorRepositoryImpl(javax.persistence.EntityManager)DECLARATIONN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2¸
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2¾
+_com.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)DECLARATIONN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (%2¸
 Ycom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByEmailIgnoreCase(java.lang.String)DECLARATIONN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (12¦
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java# #(12¦
 Gcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findAuthorStatistic()DECLARATIONN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java! (42£
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java,! ,(42£
 Dcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findAllWithBooks()DECLARATIONN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java) )((2‡
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java9 9((2‡
 -com.jpa2.demo.repository.jpa.AuthorRepositoryEXTENDN
 Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.javaV (f2‰
 /com.jpa2.demo.repository.jpa.BaseRepositoryImplEXTENDN
@@ -42,10 +44,74 @@ Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java. (0"
 isFinalfalse"%
 declarationStringEntityManager em*em2w
 javax.persistence.EntityManagerTYPEN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java  (-˜
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java  (-ÿ
+_com.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)METHODN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (%"
+isFinalfalse"ü
+declarationStringæ<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Optional&lt;Author&gt; <mark class="method">findByAny</mark>(String name<mark class="modifier"><mark class="modifier">,</mark></mark> String email)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeOptional<Author>*	findByAny2q
+java.lang.String.length()CALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java! ('2q
+java.lang.String.length()CALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java# ()2¼
+dcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!nameCALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2¼
+dcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!nameCALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java ( 2É
+qcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)?where@20.23:20.28CALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2¼
+dcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!nameCALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java7 (;2½
+ecom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!emailCALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2½
+ecom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!emailCALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java ("2É
+qcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)?where@20.23:20.28CALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2½
+ecom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!emailCALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java3 (82É
+qcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)?where@20.23:20.28CALLN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2·
+[com.jpa2.demo.repository.jpa.AuthorRepository.findByAny(java.lang.String, java.lang.String)OVERRIDEN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (%2Á
+dcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!name	PARAMETERN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java- (12Â
+ecom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!email	PARAMETERN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java: (?2Ð
+qcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)?where@20.23:20.28DECLARATIONN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2q
+java.util.OptionalRETURN_TYPEN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2ƒ
+com.jpa2.demo.entity.AuthorRETURN_TYPE_ARGUMENTN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (û
+qcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)?where@20.23:20.28VARIABLEN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java ("
+typeBooleanBuilder"
+isFinalfalse"€
+declarationStringk<mark class="modifier"> </mark>BooleanBuilder <mark class="class-field">where</mark> = new BooleanBuilder()*where2x
+ com.querydsl.core.BooleanBuilderTYPEN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (õ
+dcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!name	PARAMETERN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java- (1"
+typeString"
+isFinalfalse" 
+declarationStringString name*name2h
+java.lang.StringTYPEN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java& (,ø
+ecom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByAny(java.lang.String, java.lang.String)!email	PARAMETERN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java: (?"
+typeString"
+isFinalfalse"!
+declarationStringString email*email2h
+java.lang.StringTYPEN
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java3 (9˜
 
 Ycom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByEmailIgnoreCase(java.lang.String)METHODN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (1"
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java# #(1"
 isFinalfalse"¿
 declarationString©<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>Optional&lt;Author&gt; <mark class="method">findByEmailIgnoreCase</mark>(String email)"
 isStaticfalse"
@@ -54,24 +120,24 @@ Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (1"
 isAbstractfalse"
 typeOptional<Author>*findByEmailIgnoreCase2·
 _com.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByEmailIgnoreCase(java.lang.String)!emailCALLN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java5 (:2±
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java'5 '(:2±
 Ucom.jpa2.demo.repository.jpa.AuthorRepository.findByEmailIgnoreCase(java.lang.String)OVERRIDEN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (12¼
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java# #(12¼
 _com.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByEmailIgnoreCase(java.lang.String)!email	PARAMETERN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java9 (>2q
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java#9 #(>2q
 java.util.OptionalRETURN_TYPEN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2ƒ
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java# #(2ƒ
 com.jpa2.demo.entity.AuthorRETURN_TYPE_ARGUMENTN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (ò
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java# #(ò
 _com.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findByEmailIgnoreCase(java.lang.String)!email	PARAMETERN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java9 (>"
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java#9 #(>"
 typeString"
 isFinalfalse"!
 declarationStringString email*email2h
 java.lang.StringTYPEN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java2 (8÷
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java#2 #(8÷
 Gcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findAuthorStatistic()METHODN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java! (4"
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java,! ,(4"
 isFinalfalse"¶
 declarationString <mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;AuthorStatistic&gt; <mark class="method">findAuthorStatistic</mark>()"
 isStaticfalse"
@@ -80,13 +146,13 @@ Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java! (4"
 isAbstractfalse"
 typeList<AuthorStatistic>*findAuthorStatistic2Ÿ
 Ccom.jpa2.demo.repository.jpa.AuthorRepository.findAuthorStatistic()OVERRIDEN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java! (42m
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java,! ,(42m
 java.util.ListRETURN_TYPEN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (2‰
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java, ,(2‰
 !com.jpa2.demo.dto.AuthorStatisticRETURN_TYPE_ARGUMENTN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java (Ó
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java, ,(Ó
 Dcom.jpa2.demo.repository.jpa.AuthorRepositoryImpl.findAllWithBooks()METHODN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java) )(("
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java9 9(("
 isFinalfalse"ª
 declarationString”<mark class="annotation">@Override</mark> <br><mark class="modifier">public </mark>List&lt;Author&gt; <mark class="method">findAllWithBooks</mark>()"
 isStaticfalse"
@@ -95,8 +161,8 @@ Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java) )(("
 isAbstractfalse"
 typeList<Author>*findAllWithBooks2œ
 @com.jpa2.demo.repository.jpa.AuthorRepository.findAllWithBooks()OVERRIDEN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java) )((2m
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java9 9((2m
 java.util.ListRETURN_TYPEN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java) )(2ƒ
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java9 9(2ƒ
 com.jpa2.demo.entity.AuthorRETURN_TYPE_ARGUMENTN
-Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java) )(
+Dsrc/main/java/com/jpa2/demo/repository/jpa/AuthorRepositoryImpl.java9 9(
