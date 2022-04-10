@@ -7,6 +7,7 @@ import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQuery;
+import org.springframework.data.domain.PageRequest;
 
 import javax.persistence.EntityManager;
 import java.util.ArrayList;
@@ -34,6 +35,7 @@ public class AuthorRepositoryImpl extends BaseRepositoryImpl<Author, Long> imple
                 .select(author)
                 .from(author)
                 .where(where)
+                .orderBy(author.full_name.asc())
                 .fetch());
 
         if (authors.isPresent()) {
@@ -71,6 +73,19 @@ public class AuthorRepositoryImpl extends BaseRepositoryImpl<Author, Long> imple
                 .select(author).distinct()
                 .from(author)
                 .innerJoin(author.books, book).fetchJoin()
+                .fetch();
+    }
+
+    @Override
+    public List<Author> finalAllWithBooksPaginated(int limit, int offset) {
+        PageRequest pageRequest = PageRequest.of(0, 5);
+        return queryFactory
+                .select(author).distinct()
+                .from(author)
+                .innerJoin(author.books, book).fetchJoin()
+                .limit(limit)
+                .offset(offset)
+                .orderBy(author.id.asc())
                 .fetch();
     }
 }

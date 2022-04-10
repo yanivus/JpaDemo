@@ -11,6 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.constraints.Size;
 import java.util.List;
 import java.util.Optional;
 
@@ -53,7 +54,7 @@ public class MainRestController {
 
     @RequestMapping(path="/authorByAny", method = RequestMethod.GET)
     public ResponseEntity<List<Author>> fetchAuthorByAny(@RequestParam(name="name", required = false) String name,
-                                                             @RequestParam(name="email", required = false) String email) {
+                                                         @RequestParam(name="email", required = false) String email) {
         List<Author> author = authorRepository.findByAny(name, email);
         return new ResponseEntity<>(author, HttpStatus.OK);
 //        if (author.isPresent()) {
@@ -66,4 +67,12 @@ public class MainRestController {
     public List<Book> showBooks() {
         return bookRepository.findAll();
     }
+
+
+    @RequestMapping(path="/authorsPaginated", method = RequestMethod.GET)
+    public List<Author> showAuthorsPaginated(@RequestParam(name="limit", required = true, defaultValue = "1") @Size(min = 1) Integer limit,
+                                             @RequestParam(name="offset", required = true) @Size(min = 0)  Integer offset) {
+        return authorRepository.finalAllWithBooksPaginated(limit.intValue(), offset.intValue());
+    }
+
 }

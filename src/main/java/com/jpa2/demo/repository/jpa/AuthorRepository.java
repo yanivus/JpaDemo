@@ -17,4 +17,7 @@ public interface AuthorRepository extends BaseRepository<Author, Long> {
 
     List<Author> findAllWithBooks();
 
+    List<Author> finalAllWithBooksPaginated(int limit, int offset);
+
+
 }
