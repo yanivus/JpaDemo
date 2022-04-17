@@ -7,9 +7,12 @@ import com.jpa2.demo.model.EmptyJsonResponse;
 import com.jpa2.demo.repository.jpa.AuthorRepository;
 import com.jpa2.demo.repository.jpa.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.Link;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 import javax.validation.constraints.Size;
 import java.util.List;
@@ -42,15 +45,28 @@ public class MainRestController {
         return authorRepository.findAuthorStatistic();
     }
 
-    @RequestMapping(path="/authorByEmail", method = RequestMethod.GET)
-    public ResponseEntity<Optional<Author>> fetchAuthorByEmail(@RequestParam(name="email") String email) {
+//    @RequestMapping(path="/authorByEmail", method = RequestMethod.GET)
+//    public ResponseEntity<Optional<Author>> fetchAuthorByEmail(@RequestParam(name="email") String email) {
+//        Optional<Author> author = authorRepository.findByEmailIgnoreCase(email);
+//        if (author.isPresent()) {
+//            return new ResponseEntity<>(author, HttpStatus.OK);
+//        }
+//        return new ResponseEntity(new EmptyJsonResponse(), HttpStatus.OK);
+//    }
+
+
+    @RequestMapping(path = "/authorByEmail", method = RequestMethod.GET)
+    public ResponseEntity<Optional<Author>> fetchAuthorByEmail(@RequestParam(name = "email") String email) {
         Optional<Author> author = authorRepository.findByEmailIgnoreCase(email);
         if (author.isPresent()) {
+            // self link - hateoas
+             Link selfLink = linkTo(methodOn(MainRestController.class).fetchAuthorByEmail(email)).withSelfRel();
+             author.get().add(selfLink);
+
             return new ResponseEntity<>(author, HttpStatus.OK);
         }
         return new ResponseEntity(new EmptyJsonResponse(), HttpStatus.OK);
     }
-
 
     @RequestMapping(path="/authorByAny", method = RequestMethod.GET)
     public ResponseEntity<List<Author>> fetchAuthorByAny(@RequestParam(name="name", required = false) String name,

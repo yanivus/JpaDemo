@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 import lombok.experimental.Accessors;
+import org.springframework.hateoas.RepresentationModel;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -17,7 +18,7 @@ import java.util.Set;
 @Entity
 @Accessors(chain = true)
 @ToString(onlyExplicitlyIncluded = true)
-public class Author {
+public class Author extends RepresentationModel<Author> {
     @Id
     @ToString.Include
     @GeneratedValue(strategy = GenerationType.IDENTITY)
